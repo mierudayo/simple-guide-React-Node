@@ -1,0 +1,22 @@
+.cart-page-title {
+    padding-top: 1rem;
+    color: var(--dark-black);
+    text-align: center;
+}
+
+.cart-page {
+    margin-left: 0;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.cart-item-container {
+    gap: 2rem;
+}
+
+@media screen and (max-width: 500px) {
+    .cart-page {
+        flex-wrap: wrap;
+    }
+
+}
