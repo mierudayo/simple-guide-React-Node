@@ -6,6 +6,9 @@ export const getUserByUsername = async (username: string) => {
     where: {
       username,
     },
+    include: {
+      stream: true,
+    },
   });
   return user;
 };
