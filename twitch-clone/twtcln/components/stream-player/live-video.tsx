@@ -40,6 +40,7 @@ export const LiveVideo = ({ participant }: LiveVideoProps) => {
   useEffect(() => {
     onVolumeChange(0);
   }, [0]);
+
   //
   const toggleFullscreen = () => {
     if (isFullscreen) {

@@ -41,6 +41,8 @@ export const StreamPlayer = ({
 }: StreamPlayerProps) => {
   const { token, name, identity } = useViewerToken(user.id);
 
+  const { coll } = useChatSidebar((state) => state);
+
   if (!token || !name || !identity) {
     return <StreamPlayerSkeleton />;
   }
