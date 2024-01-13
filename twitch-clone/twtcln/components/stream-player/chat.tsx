@@ -9,8 +9,6 @@ import {
   useRemoteParticipant,
 } from "@livekit/components-react";
 
-import { ChatVariant, useChatSidebar } from "@/store/use-chat-sidebar";
-
 import { ChatForm, ChatFormSkeleton } from "./chat-form";
 import { ChatList, ChatListSkeleton } from "./chat-list";
 import { ChatHeader, ChatHeaderSkeleton } from "./chat-header";
