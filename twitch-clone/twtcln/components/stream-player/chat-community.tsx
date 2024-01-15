@@ -44,6 +44,15 @@ export const ChatCommunity = ({
         <p className="text-center text-sm text-muted-foreground hidden last:block">
           No Results
         </p>
+        {participants.map((participant) => (
+          <CommunityItem
+            key={participants.identity}
+            hostName={hostName}
+            viewerName={viewerName}
+            participantName={participants.name}
+            participantIdentity={participants.identity}
+          />
+        ))}
       </ScrollArea>
     </div>
   );
