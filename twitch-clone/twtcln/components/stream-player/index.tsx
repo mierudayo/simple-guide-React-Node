@@ -13,6 +13,7 @@ import { Chat, ChatSkeleton } from "./chat";
 import { ChatToggle } from "./chat-toggle";
 import { Header, HeaderSkeleton } from "./header";
 import { InfoCard } from "./info-card";
+import { AboutCard } from "./about-card";
 
 type CustomStream = {
   id: string;
@@ -82,6 +83,13 @@ export const StreamPlayer = ({
             viewerIdentity={identity}
             name={stream.name}
             thumbnailUrl={stream.thumbnailUrl}
+          />
+          <AboutCard
+            hostName={user.username}
+            hostIdentity={user.id}
+            viewerIdentity={identity}
+            bio={user.bio}
+            followedByCount={user._count.followedBy}
           />
           {/*  */}
         </div>
