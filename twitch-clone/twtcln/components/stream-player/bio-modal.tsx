@@ -14,6 +14,7 @@ import {
 import { updateUser } from "@/actions/user";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
+import { Hint } from "../hint";
 
 interface BioModalProps {
   initialValue: string | null;
