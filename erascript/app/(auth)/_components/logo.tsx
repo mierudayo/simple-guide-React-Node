@@ -13,6 +13,10 @@ export const Logo = () => {
       <div className="rounded-full p-1">
         <Image src="/blbg.svg" alt="erascript" height={200} width={200} />
       </div>
+      <div className="flex flex-col items-center">
+        <p className="text-xl font-semibold">Twitch Clone</p>
+        <p className="text-sm text-muted-foreground">Let&apos;s Play</p>
+      </div>
     </div>
   );
 };
