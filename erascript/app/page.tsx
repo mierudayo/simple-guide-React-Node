@@ -1,5 +1,11 @@
 import Image from "next/image";
+import { UserButton } from "@clerk/nextjs";
 
 export default function Home() {
-  return <h1>This is Starting of EraScript</h1>;
+  return (
+    <div className="h-screen">
+      <h1>Sign in</h1>
+      <UserButton afterSignOutUrl="/" />
+    </div>
+  );
 }
