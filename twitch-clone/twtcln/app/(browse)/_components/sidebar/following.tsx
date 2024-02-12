@@ -1,6 +1,6 @@
 "use client";
 
-import { useSidebar } from "@/store/user-sidebar";
+import { useSidebar } from "@/store/use-sidebar";
 import { Follow, Stream, User } from "@prisma/client";
 import { UserItem, UserItemSkeleton } from "./user-item";
 
