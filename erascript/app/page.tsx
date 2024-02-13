@@ -14,13 +14,14 @@ export default function Home() {
       <p className="text-lg text-gray-600 mb-8">
         Sign in to access exclusive features and content.
       </p>
+      <UserButton />
       <div className="flex space-x-4">
-        <Button size="sm" variant="destructive">
+        <Button size="sm">
           <SignInButton />
         </Button>
-        <Button>
+        {/* <Button size="sm">
           <SignOutButton />
-        </Button>
+        </Button> */}
       </div>
     </div>
   );
