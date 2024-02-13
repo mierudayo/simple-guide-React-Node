@@ -1,7 +1,7 @@
 export default {
   providers: [
     {
-      domain: "https://giant-reindeer-817.convex.cloud",
+      domain: "https://smiling-alien-1.clerk.accounts.dev",
       applicationID: "convex",
     },
   ],
