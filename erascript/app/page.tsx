@@ -15,7 +15,7 @@ export default function Home() {
         Sign in to access exclusive features and content.
       </p>
       <div className="flex space-x-4">
-        <Button>
+        <Button size="sm" variant="destructive">
           <SignInButton />
         </Button>
         <Button>
